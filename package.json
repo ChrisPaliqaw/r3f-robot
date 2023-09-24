@@ -36,7 +36,7 @@
     "prepare": "npm run build",
     "prepublishOnly": "npm test && npm run prettier && npm run lint",
     "prettier": "prettier --write \"{src,tests,example/src}/**/*.{js,ts,jsx,tsx}\"",
-    "test": "jest --config jestconfig.json",
+    "test": "jest --config jestconfig.json"
   },
   "author": "Chris Paliqaw (@ChrisPaliqaw)",
   "license": "MIT",
