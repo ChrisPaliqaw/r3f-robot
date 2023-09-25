@@ -1,3 +1,4 @@
 import MyCounter from './components/App'
+import { Transform } from './components/Transform'
 
-export { MyCounter }
+export { MyCounter, Transform }
